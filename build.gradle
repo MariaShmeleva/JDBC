@@ -17,6 +17,8 @@ dependencies {
     //database
     implementation 'com.h2database:h2:1.4.194'
     testImplementation group: 'com.h2database', name: 'h2', version: '1.4.200'
+
+    implementation group: 'postgresql', name: 'postgresql', version: '9.1-901-1.jdbc4'
 }
 
 test {
